@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>please complete the form</h1>
+    <form action="get">
+        <label for="name">Your Name <input id ="name"type="text" placeholder="Write your Name"></label>
+        
+        <label for="email">Your Name <input id ="email" type="email" placeholder="Write your email">
+        </label>
+        <fieldset>
+            <legend>Pick One</legend>
+            <label for="Pepsi">
+                <input type="radio" name="drinks" id="Pepsi">Pepsi
+            </label>
+            <label for="coke">
+                <input type="radio" name="drinks" id="coke">Coke
+            </label>
+            <label for="Fanta">
+                <input type="radio" name="drinks" id="Fanta">Fanta
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Pick </legend>
+            <label for="potato">
+                <input type="checkbox" name="ff" id="potato">potato
+            </label>
+            <label for="salad">
+                <input type="checkbox" name="ff" id="salad">salad
+            </label>
+            <label for="nothing">
+                <input type="checkbox" name="ff" id="nothing">nothing
+            </label>
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Special requirement</legend>
+            <textarea name="desc" id="desc" cols="50" rows="1"></textarea>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input type="submit" value="Submit">
+        
+    </form>
+    
+</body>
+</html>
